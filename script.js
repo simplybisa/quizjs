@@ -10,11 +10,11 @@ const questions = [
     "8. Które właściwości DOM pozwalają pobrać element HTML?",
     "9. Które z poniższych pętli istnieją w JavaScript?",
     "10. Które operatory są używane do porównań w JavaScript?",
-    "11. Jak nazywa się metoda służąca do dodawania elementu na końcu tablicy w JavaScript?<br>Odpowiedz jednym wyrazem, małymi literami.",
-    "12. Jakim słowem kluczowym deklaruje się stałe w JavaScript?<br>Odpowiedz jednym wyrazem, małymi literami.",
-    "13. Jaki typ danych w JavaScript reprezentuje wartość prawda lub fałsz?<br>Odpowiedz jednym wyrazem, małymi literami.",
-    "14. Jak nazywa się metoda używana do ustawiania opóźnienia w JavaScript?<br>Odpowiedz jednym wyrazem, małymi literami.",
-    "15. Jak nazywa się właściwość służąca do pobierania liczby elementów w tablicy?<br>Odpowiedz jednym wyrazem, małymi literami.",
+    "11. Jak nazywa się metoda służąca do dodawania elementu na końcu tablicy w JavaScript?<br>Odpowiedz jednym wyrazem.",
+    "12. Jakim słowem kluczowym deklaruje się stałe w JavaScript?<br>Odpowiedz jednym wyrazem.",
+    "13. Jaki typ danych w JavaScript reprezentuje wartość prawda lub fałsz?<br>Odpowiedz jednym wyrazem.",
+    "14. Jak nazywa się metoda używana do ustawiania opóźnienia w JavaScript?<br>Odpowiedz jednym wyrazem.",
+    "15. Jak nazywa się właściwość służąca do pobierania liczby elementów w tablicy?<br>Odpowiedz jednym wyrazem.",
 ];
 const answers_a = [
     "push()",
