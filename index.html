@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <span>Quiz o JavaScript</span>
+    </header>
+
+    <main>
+        <div id="question">Podaj swoje imię i nazwisko:</div><br>
+
+        <div id="user_input"><input type="text" name="user_name" id="user_name"></div><br>
+
+        <div id="answers_tf">
+            <label id="f1"><input type="radio" name="true_or_false" id="prawda" onclick="prawda()">Prawda</label>
+            <label id="f2"><input type="radio" name="true_or_false" id="falsz" onclick="falsz()">Fałsz</label>
+        </div>
+        <div id="answers_multiple">
+            <input type="checkbox" name="multiple" id="a"> <span id="answer_a"></span>
+            <input type="checkbox" name="multiple" id="b"> <span id="answer_b"></span><br>
+            <input type="checkbox" name="multiple" id="c"> <span id="answer_c"></span>
+            <input type="checkbox" name="multiple" id="d"> <span id="answer_d"></span>
+        </div>
+        <div id="answers_word">
+            <input type="text" name="text" id="text">
+        </div>
+
+        <div id="navigators">
+            <button id="previous" onclick="previous()">Poprzednie pytanie</button>
+            <button id="next" onclick="next()">Następne pytanie</button>
+            <button id="end" onclick="end()">Zakończ quiz</button>
+        </div>
+
+        <button id="start" onclick="start()">Rozpocznij Quiz!</button>
+
+        <div id="score">
+            <span id="score_text"></span>
+            <span id="scores"></span>
+        </div>
+    </main>
+
+    <footer>
+        <span>Autorem quizu jest: Jakub Szal</span>
+    </footer>
+</body>
+</html>
