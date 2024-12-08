@@ -11,7 +11,7 @@ const questions = [
     "9. Które z poniższych pętli istnieją w JavaScript?",
     "10. Które operatory są używane do porównań w JavaScript?",
     "11. Jak nazywa się metoda służąca do dodawania elementu na końcu tablicy w JavaScript?<br>Odpowiedz jednym wyrazem.",
-    "12. Jakim słowem kluczowym deklaruje się stałe w JavaScript?<br>Odpowiedz jednym wyrazem.",
+    "12. Jakim słowem kluczowym deklaruje się stałe zmienne w JavaScript?<br>Odpowiedz jednym wyrazem.",
     "13. Jaki typ danych w JavaScript reprezentuje wartość prawda lub fałsz?<br>Odpowiedz jednym wyrazem.",
     "14. Jak nazywa się metoda używana do ustawiania opóźnienia w JavaScript?<br>Odpowiedz jednym wyrazem.",
     "15. Jak nazywa się właściwość służąca do pobierania liczby elementów w tablicy?<br>Odpowiedz jednym wyrazem.",
@@ -863,7 +863,7 @@ function check_score() {
     } else if (remember_answers[11].toLowerCase() == "push()") {
         info += "<span id='correct'>" + remember_answers[11] + "</span><br><br>";
     } else {
-        info += "<span id='incorrect'>" + remember_answers[11] + "</span><br><br>";
+        info += "<span id='correct'>push/push()</span><br><span id='incorrect'>" + remember_answers[11] + "</span><br><br>";
     }
 
 
@@ -872,7 +872,7 @@ function check_score() {
     if (remember_answers[12].toLowerCase() == "const") {
         info += "<span id='correct'>" + remember_answers[12] + "</span><br><br>";
     } else {
-        info += "<span id='incorrect'>" + remember_answers[12] + "</span><br><br>";
+        info += "<span id='correct'>const</span><br><span id='incorrect'>" + remember_answers[12] + "</span><br><br>";
     }
 
 
@@ -881,7 +881,7 @@ function check_score() {
     if (remember_answers[13].toLowerCase() == "bootlean") {
         info += "<span id='correct'>" + remember_answers[13] + "</span><br><br>";
     } else {
-        info += "<span id='incorrect'>" + remember_answers[13] + "</span><br><br>";
+        info += "<span id='correct'>bootlean</span><br><span id='incorrect'>" + remember_answers[13] + "</span><br><br>";
     }
 
 
@@ -892,7 +892,7 @@ function check_score() {
     } else if (remember_answers[14].toLowerCase() == "settimeout()") {
         info += "<span id='correct'>" + remember_answers[14] + "</span><br><br>";
     } else {
-        info += "<span id='incorrect'>" + remember_answers[14] + "</span><br><br>";
+        info += "<span id='correct'>settimeout/settimeout()</span><br><span id='incorrect'>" + remember_answers[14] + "</span><br><br>";
     }
 
 
@@ -901,7 +901,7 @@ function check_score() {
     if (remember_answers[15].toLowerCase() == "length") {
         info += "<span id='correct'>" + remember_answers[15] + "</span><br><br>";
     } else {
-        info += "<span id='incorrect'>" + remember_answers[15] + "</span><br><br>";
+        info += "<span id='correct'>length</span><br><span id='incorrect'>" + remember_answers[15] + "</span><br><br>";
     }
 
 
